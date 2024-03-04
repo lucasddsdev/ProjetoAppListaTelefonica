@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PhoneList</string>
+    <string name="username">username</string>
+    <string name="password" />
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="keep_me_logged">Keep me logged</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account_sign_up">Don`t have account ? Sign Up!</string>
+    <string name="recover_your_password">Recover your password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup">SIGNUP</string>
+    <string name="SIGNUP">SIGNUP</string>
+    <string name="please_insert_all_required_fields">Please insert all required fields</string>
+    <string name="passawords_dont_t_match">Passawords dont`t match</string>
+    <string name="signup_ok">Signup Ok!</string>
+    <string name="signup_error">Signup Error!!</string>
+    <string name="login_error">Login Error</string>
+    <string name="logout">LOGOUT</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="new_contact">New Contact</string>
+    <string name="back">BACK</string>
+    <string name="back_to_login">BACK TO LOGIN</string>
+</resources>
