@@ -40,8 +40,6 @@ class MainActivity : AppCompatActivity() {
         loadList()
 
 
-
-
         binding.buttonLogout.setOnClickListener(){
             val editor: SharedPreferences.Editor = sharedPreferences.edit()
             editor.putString("username","")
@@ -49,16 +47,6 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
 
-
-        
-        /*binding.listViewContacts.setOnItemClickListener { _, _, position, _ ->
-            //Toast.makeText(applicationContext, contactList[position].name, Toast.LENGTH_SHORT).show()
-            val intent = Intent(applicationContext,ContactDetailActivity::class.java)
-            intent.putExtra("id",contactList[position].id)
-            val res = intent
-            result.launch(intent)
-
-        }*/
 
         binding.buttonAdd.setOnClickListener(){
             result.launch(Intent(applicationContext,NewContactActivity::class.java))
@@ -106,17 +94,7 @@ class MainActivity : AppCompatActivity() {
         contactList = dbHelper.getAllContact().sortedWith(compareBy { it.name })
         placeAdapter()
 
-        /*contactList = dbHelper.getAllContact()
-
-        adapter =
-        ArrayAdapter(
-            applicationContext,
-            android.R.layout.simple_list_item_1,
-            contactList
-        )
-
-        binding.listViewContacts.adapter = adapter
-    */}
+        }
 
 
 }
