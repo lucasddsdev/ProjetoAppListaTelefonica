@@ -77,7 +77,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
     }
     private fun placeAdapter(){
         adapter = ContactListAdapter(contactList, ContactOnClickListener { contact ->
