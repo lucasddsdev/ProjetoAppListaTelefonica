@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
         dbHelper = DBHelper(this)
         val sharedPreferences = application.getSharedPreferences("login", MODE_PRIVATE)
 
-
         binding.recyclerViewContacts.layoutManager = LinearLayoutManager(applicationContext)
         loadList()
 
