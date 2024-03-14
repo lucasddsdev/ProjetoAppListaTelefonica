@@ -45,7 +45,6 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
 
-
         binding.buttonAdd.setOnClickListener(){
             result.launch(Intent(applicationContext,NewContactActivity::class.java))
 
