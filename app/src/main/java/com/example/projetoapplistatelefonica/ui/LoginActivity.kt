@@ -9,6 +9,7 @@ import android.widget.Toast
 import com.example.projetoapplistatelefonica.R
 import com.example.projetoapplistatelefonica.database.DBHelper
 import com.example.projetoapplistatelefonica.databinding.ActivityLoginBinding
+import com.example.projetoapplistatelefonica.model.ContactModel
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
@@ -56,5 +57,6 @@ class LoginActivity : AppCompatActivity() {
         binding.textSignup.setOnClickListener(){
             startActivity(Intent(this, SignupActivity::class.java))
         }
+
     }
 }

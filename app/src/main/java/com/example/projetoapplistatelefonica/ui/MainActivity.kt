@@ -22,7 +22,6 @@ import com.example.projetoapplistatelefonica.model.ContactModel
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var contactList: List<ContactModel>
-    //private lateinit var adapter: ArrayAdapter<ContactModel>
     private lateinit var adapter: ContactListAdapter
     private lateinit var result: ActivityResultLauncher<Intent>
     private lateinit var dbHelper: DBHelper
